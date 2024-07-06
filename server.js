@@ -12,7 +12,7 @@ app.use(express.static('public'));
 app.post('/submit', (req, res) => {
     const { name, email } = req.body;
     
-    const command = `python3 run_playwright.py "${name}" "${email}"`;
+    const command = `python3 run_playwrFailed to load resource: the server responded with a status of 404 ()ight.py "${name}" "${email}"`;
 
     exec(command, (error, stdout, stderr) => {
         if (error) {
